@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, curly_braces_in_flow_control_structures
 
 import 'package:flutter/material.dart';
+import 'package:geocoding/geocoding.dart';
+import 'package:waste_management/dashboard/location.dart';
 
 import 'sign_up.dart';
 
@@ -172,7 +174,7 @@ class _LoginState extends State<Login> {
                                 Navigator.pushAndRemoveUntil(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => SignUp(),
+                                      builder: (context) => MyLocation(),
                                     ),
                                     (route) => false);
                             },
