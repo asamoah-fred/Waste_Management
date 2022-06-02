@@ -159,8 +159,8 @@ class _SignUpState extends State<SignUp> {
                           ),
                           child: GestureDetector(
                             onTap: () {
-                              if (_formkey.currentState != null &&
-                                  _formkey.currentState!.validate())
+                              // if (_formkey.currentState != null &&
+                              //     _formkey.currentState!.validate())
                                 Navigator.pushAndRemoveUntil(
                                     context,
                                     MaterialPageRoute(
